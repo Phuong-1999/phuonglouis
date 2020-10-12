@@ -19,6 +19,6 @@ app.get('/allUser', function (req, res) {
 })
 var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
-app.listen(process.env.PORT || 3000, () => {
-    console.log("Server is running in 3000 port");
+app.listen(process.env.PORT || 5000, () => {
+    console.log("Server is running in 5000 port");
 });
